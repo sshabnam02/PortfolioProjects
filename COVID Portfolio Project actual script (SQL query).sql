@@ -118,7 +118,9 @@ JOIN [dbo].[Covid Vaccinations] vac
 WHERE dea.continent is not null
 ORDER BY 2,3; 
  
+ 
 -- USE CTE To perform Calculation on Partition By in previous Query
+
 
 With PopvsVac (continent, location, date, population,new_vaccination, RollingPeopleVaccinated)
 as
